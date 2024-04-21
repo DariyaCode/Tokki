@@ -18,15 +18,15 @@ struct TableItem: Identifiable {
 var tabItems = [
     TableItem(text: "Learn now!", icon: "house", tab: .home, color: .teal),
     TableItem(text: "Explore", icon: "magnifyingglass", tab: .explore, color: .blue),
-    TableItem(text: "Notifications", icon: "bell", tab: .notifications, color: .red),
     TableItem(text: "Library", icon: "rectangle.stack", tab: .library, color: .pink),
+    TableItem(text: "Account", icon: "person.fill", tab: .account, color: .red)
 ]
 
 enum Tab: String{
     case home
     case explore
-    case notifications
     case library
+    case account
 }
 
 struct TabPreferenceKey: PreferenceKey{

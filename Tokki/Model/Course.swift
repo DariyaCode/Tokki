@@ -18,15 +18,15 @@ struct Course: Identifiable {
 }
 
 var featuredCourses = [
-    Course(title: "SwiftUI course!", subtitle: "16 sections - 3 hours", text: "Build an appps for IPhone with SwiftUI", image: "Illustration 5", background: "Background 5", logo: "Logo 2"),
-    Course(title: "UI Design course!", subtitle: "14 sections - 2 hours", text: "Create a designs as professional", image: "Illustration 3", background: "Background 4", logo: "Logo 4"),
-    Course(title: "Flutter devs course!", subtitle: "21 sections - 4 hours", text: "Build an appps for IPhone with Flutter", image: "Illustration 1", background: "Background 1", logo: "Logo 1"),
-    Course(title: "React Hooks course!", subtitle: "20 sections - 4 hours", text: "Build an appps with React", image: "Illustration 2", background: "Background 2", logo: "Logo 3")
+    Course(title: "Beggining", subtitle: "3 sections - 15 minutes", text: "History of language", image: "Illustration 5", background: "Background 5", logo: "Logo 2"),
+    Course(title: "Korean A1 course!", subtitle: "2 sections - 2 hours", text: "The base of Alphabet", image: "Illustration 3", background: "Background 4", logo: "Logo 4"),
+    Course(title: "Korean words", subtitle: "20 sections - 5 hours", text: "Wordbook", image: "Illustration 1", background: "Background 1", logo: "Logo 1"),
+    Course(title: "Korean grammar", subtitle: "20 sections - 4 hours", text: "Grammas", image: "Illustration 2", background: "Background 9", logo: "Logo 3")
 ]
 
 var courses = [
-    Course(title: "SwiftUI course!", subtitle: "16 sections - 3 hours", text: "Build an appps for IPhone with SwiftUI", image: "Illustration 5", background: "Background 5", logo: "Logo 2"),
-    Course(title: "UI Design course!", subtitle: "14 sections - 2 hours", text: "Create a designs as professional", image: "Illustration 3", background: "Background 4", logo: "Logo 4"),
-    Course(title: "Flutter devs course!", subtitle: "21 sections - 4 hours", text: "Build an appps for IPhone with Flutter", image: "Illustration 1", background: "Background 1", logo: "Logo 1"),
-    Course(title: "React Hooks course!", subtitle: "20 sections - 4 hours", text: "Build an appps with React", image: "Illustration 2", background: "Background 2", logo: "Logo 3")
+    Course(title: "Word list", subtitle: "16 sections - 3 hours", text: "Learning  new words", image: "Illustration 5", background: "Background 9", logo: "Logo 2"),
+    Course(title: "Reading", subtitle: "14 sections - 2 hours", text: "Prowiding your manhwa's", image: "Illustration 3", background: "Background 8", logo: "Logo 4"),
+    Course(title: "Workbook", subtitle: "21 sections - 4 hours", text: "Challenge yourself!", image: "Illustration 1", background: "Background 3", logo: "Logo 1"),
+    Course(title: "Exersices", subtitle: "20 sections - 4 hours", text: "Challenge yourself! pt2", image: "Illustration 2", background: "Background 10", logo: "Logo 3")
 ]

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1936235A2BD1B6D800EB3801 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193623592BD1B6D800EB3801 /* ModalView.swift */; };
+		1936235C2BD1B7E200EB3801 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936235B2BD1B7E200EB3801 /* SignInView.swift */; };
 		197C81ED2B1B019B00D4DBC0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C81EC2B1B019B00D4DBC0 /* TabBar.swift */; };
 		197C81EF2B1B01A900D4DBC0 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C81EE2B1B01A900D4DBC0 /* NavigationBar.swift */; };
 		197C81F12B1B01B600D4DBC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C81F02B1B01B600D4DBC0 /* HomeView.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193623592BD1B6D800EB3801 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		1936235B2BD1B7E200EB3801 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		197C81EC2B1B019B00D4DBC0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		197C81EE2B1B01A900D4DBC0 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		197C81F02B1B01B600D4DBC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1920FA092BD24EA00005981D /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				197C81FA2B1B01FA00D4DBC0 /* SignUpView.swift */,
+				1936235B2BD1B7E200EB3801 /* SignInView.swift */,
+				193623592BD1B6D800EB3801 /* ModalView.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
 		197C81E72B1B008400D4DBC0 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +108,7 @@
 				197C81F42B1B01DA00D4DBC0 /* MatchedView.swift */,
 				197C81F62B1B01E500D4DBC0 /* CourseView.swift */,
 				197C81F82B1B01EF00D4DBC0 /* SearchView.swift */,
-				197C81FA2B1B01FA00D4DBC0 /* SignUpView.swift */,
+				1920FA092BD24EA00005981D /* Modals */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +269,7 @@
 				19B289962B1AFE3200B33D87 /* TokkiApp.swift in Sources */,
 				197C82152B1B02AE00D4DBC0 /* AngularButtonStyle.swift in Sources */,
 				197C81F12B1B01B600D4DBC0 /* HomeView.swift in Sources */,
+				1936235C2BD1B7E200EB3801 /* SignInView.swift in Sources */,
 				197C820B2B1B026700D4DBC0 /* Model.swift in Sources */,
 				197C820F2B1B027900D4DBC0 /* Styles.swift in Sources */,
 				197C82012B1B022D00D4DBC0 /* FeaturedItem.swift in Sources */,
@@ -267,6 +282,7 @@
 				197C81FD2B1B020A00D4DBC0 /* BlobView.swift in Sources */,
 				197C82132B1B029F00D4DBC0 /* Animations.swift in Sources */,
 				197C81F72B1B01E500D4DBC0 /* CourseView.swift in Sources */,
+				1936235A2BD1B6D800EB3801 /* ModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

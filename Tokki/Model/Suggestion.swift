@@ -13,7 +13,6 @@ struct Suggestion: Identifiable{
 }
 
 var suggestions = [
-    Suggestion(text: "SwiftUI"),
-    Suggestion(text: "React"),
-    Suggestion(text: "Design")
+    Suggestion(text: "Words"),
+    Suggestion(text: "Workbook")
 ]

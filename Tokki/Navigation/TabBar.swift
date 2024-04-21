@@ -72,9 +72,9 @@ struct TabBar: View {
     
     var background: some View{
         HStack {
-            if selectedTab == .library {Spacer()}
+            if selectedTab == .account {Spacer()}
             if selectedTab == .explore {Spacer()}
-            if selectedTab == .notifications {
+            if selectedTab == .library {
                 Spacer()
                 Spacer()
             }
@@ -84,16 +84,16 @@ struct TabBar: View {
                 Spacer()
                 Spacer()
             }
-            if selectedTab == .notifications {Spacer()}
+            if selectedTab == .library {Spacer()}
         }
         .padding(.horizontal, 8)
     }
     
     var overlay: some View{
         HStack {
-            if selectedTab == .library {Spacer()}
+            if selectedTab == .account {Spacer()}
             if selectedTab == .explore {Spacer()}
-            if selectedTab == .notifications {
+            if selectedTab == .library {
                 Spacer()
                 Spacer()
             }
@@ -108,7 +108,7 @@ struct TabBar: View {
                 Spacer()
                 Spacer()
             }
-            if selectedTab == .notifications {Spacer()}
+            if selectedTab == .library {Spacer()}
         }
         .padding(.horizontal, 8)
         

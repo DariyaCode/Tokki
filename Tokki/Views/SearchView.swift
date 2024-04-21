@@ -40,7 +40,7 @@ struct SearchView: View {
             }
             .searchable(text: $text, placement:
                 .navigationBarDrawer(displayMode: .always), prompt:
-                Text("SwiftUI, React, UI Design")) {
+                Text("Korean A1, Korean A2, Korean B1")) {
                 ForEach(suggestions){ suggestion in
                     Button {
                         text = suggestion.text

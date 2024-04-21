@@ -19,43 +19,24 @@ struct ContentView: View {
             case .home:
                 HomeView()
             case .explore:
-                AccountView()
-            case .notifications:
-                AccountView()
+                SearchView()
             case .library:
+                MatchedView()
+            case .account:
                 AccountView()
             }
             
             TabBar()
                 .offset(y: model.showDetail ? 200 : 0)
             
-            if(showModal){
-                ZStack {
-                    Color.clear.background(.regularMaterial)
-                        .ignoresSafeArea()
-                    
-                    SignUpView()
-                    
-                    Button{
-                        withAnimation{
-                            showModal = false
-                        }
-                    } label: {
-                        Image(systemName: "xmark")
-                            .font(.body.weight(.bold))
-                            .foregroundColor(.secondary)
-                            .padding(8)
-                        .background(.ultraThinMaterial, in: Circle())
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
-                    .padding(20)
-                }
-                .zIndex(1)
-            }
+            if showModal {
+                ModalView()
+                    .zIndex(1)
         }
-        .safeAreaInset(edge: .bottom, content: {
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
             Color.clear.frame(height: 44)
-        })
+        }
     }
 }
 
