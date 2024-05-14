@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 struct HomeView: View {
     @State var hasScrolled = false
