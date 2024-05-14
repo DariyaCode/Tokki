@@ -57,7 +57,6 @@ struct CourseView: View {
                 Spacer()
             }
             .frame(maxWidth: .infinity)
-            
             .frame(height: scrollY > 0 ? 500 + scrollY : 500)
             .foregroundStyle(.black)
             .background(

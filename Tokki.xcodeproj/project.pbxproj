@@ -31,6 +31,7 @@
 		197C82132B1B029F00D4DBC0 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82122B1B029F00D4DBC0 /* Animations.swift */; };
 		197C82152B1B02AE00D4DBC0 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82142B1B02AE00D4DBC0 /* AngularButtonStyle.swift */; };
 		197C82172B1B02BB00D4DBC0 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82162B1B02BB00D4DBC0 /* InputStyle.swift */; };
+		1989DC822BF29841006D70BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1989DC812BF29841006D70BD /* GoogleService-Info.plist */; };
 		19B289962B1AFE3200B33D87 /* TokkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B289952B1AFE3200B33D87 /* TokkiApp.swift */; };
 		19B289982B1AFE3200B33D87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B289972B1AFE3200B33D87 /* ContentView.swift */; };
 		19B2899A2B1AFE3300B33D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B289992B1AFE3300B33D87 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		197C82122B1B029F00D4DBC0 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		197C82142B1B02AE00D4DBC0 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		197C82162B1B02BB00D4DBC0 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
+		1989DC812BF29841006D70BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19B289922B1AFE3200B33D87 /* Tokki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B289952B1AFE3200B33D87 /* TokkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiApp.swift; sourceTree = "<group>"; };
 		19B289972B1AFE3200B33D87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				197C81EA2B1B011200D4DBC0 /* Model */,
 				197C81EB2B1B012500D4DBC0 /* Styles */,
 				19B289992B1AFE3300B33D87 /* Assets.xcassets */,
+				1989DC812BF29841006D70BD /* GoogleService-Info.plist */,
 				19B2899B2B1AFE3300B33D87 /* Preview Content */,
 			);
 			path = Tokki;
@@ -231,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 19B289892B1AFE3200B33D87;
+			packageReferences = (
+				1989DC832BF29ADD006D70BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 19B289932B1AFE3200B33D87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -247,6 +253,7 @@
 			files = (
 				19B2899D2B1AFE3300B33D87 /* Preview Assets.xcassets in Resources */,
 				19B2899A2B1AFE3300B33D87 /* Assets.xcassets in Resources */,
+				1989DC822BF29841006D70BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +490,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1989DC832BF29ADD006D70BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 19B2898A2B1AFE3200B33D87 /* Project object */;
 }
