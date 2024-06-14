@@ -2,7 +2,7 @@
 //  Suggestion.swift
 //  Tokki
 //
-//  Created by Dariya Gecher on 02.12.2023.
+//  Created by Dariya Gecher on 20.05.2024.
 //
 
 import SwiftUI
@@ -13,6 +13,8 @@ struct Suggestion: Identifiable{
 }
 
 var suggestions = [
-    Suggestion(text: "Words"),
+    Suggestion(text: "Reading"),
+    Suggestion(text: "Word list"),
+    Suggestion(text: "Exersices"),
     Suggestion(text: "Workbook")
 ]

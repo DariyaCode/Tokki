@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192BE02B2C1BB3AB0089B426 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE02A2C1BB3AB0089B426 /* FutureView.swift */; };
+		192BE02D2C1BB45C0089B426 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE02C2C1BB45C0089B426 /* HelpView.swift */; };
+		192BE0302C1BB50D0089B426 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE02F2C1BB50D0089B426 /* SettingsView.swift */; };
+		192BE0322C1BB73E0089B426 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE0312C1BB73E0089B426 /* ThemeManager.swift */; };
+		192BE0342C1BBF180089B426 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE0332C1BBF180089B426 /* PricingView.swift */; };
 		1936235A2BD1B6D800EB3801 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193623592BD1B6D800EB3801 /* ModalView.swift */; };
 		1936235C2BD1B7E200EB3801 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936235B2BD1B7E200EB3801 /* SignInView.swift */; };
 		197C81ED2B1B019B00D4DBC0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C81EC2B1B019B00D4DBC0 /* TabBar.swift */; };
@@ -31,16 +36,19 @@
 		197C82132B1B029F00D4DBC0 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82122B1B029F00D4DBC0 /* Animations.swift */; };
 		197C82152B1B02AE00D4DBC0 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82142B1B02AE00D4DBC0 /* AngularButtonStyle.swift */; };
 		197C82172B1B02BB00D4DBC0 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C82162B1B02BB00D4DBC0 /* InputStyle.swift */; };
-		1989DC822BF29841006D70BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1989DC812BF29841006D70BD /* GoogleService-Info.plist */; };
 		19B289962B1AFE3200B33D87 /* TokkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B289952B1AFE3200B33D87 /* TokkiApp.swift */; };
 		19B289982B1AFE3200B33D87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B289972B1AFE3200B33D87 /* ContentView.swift */; };
 		19B2899A2B1AFE3300B33D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B289992B1AFE3300B33D87 /* Assets.xcassets */; };
 		19B2899D2B1AFE3300B33D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B2899C2B1AFE3300B33D87 /* Preview Assets.xcassets */; };
-		B4685B65A95B3B0865CCD9D6 /* Pods_Tokki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8837043AA1A9B9625C8B0F /* Pods_Tokki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A8837043AA1A9B9625C8B0F /* Pods_Tokki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tokki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		192BE02A2C1BB3AB0089B426 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
+		192BE02C2C1BB45C0089B426 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		192BE02F2C1BB50D0089B426 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		192BE0312C1BB73E0089B426 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		192BE0332C1BBF180089B426 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
+		193528DD2C14FA8000349FCF /* Tokki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		193623592BD1B6D800EB3801 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		1936235B2BD1B7E200EB3801 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		197C81EC2B1B019B00D4DBC0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
@@ -65,14 +73,11 @@
 		197C82122B1B029F00D4DBC0 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		197C82142B1B02AE00D4DBC0 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		197C82162B1B02BB00D4DBC0 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
-		1989DC812BF29841006D70BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		19B289922B1AFE3200B33D87 /* Tokki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1989DC872BF3040F006D70BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19B289952B1AFE3200B33D87 /* TokkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokkiApp.swift; sourceTree = "<group>"; };
 		19B289972B1AFE3200B33D87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19B289992B1AFE3300B33D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B2899C2B1AFE3300B33D87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		855D03390136809130456749 /* Pods-Tokki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokki.debug.xcconfig"; path = "Target Support Files/Pods-Tokki/Pods-Tokki.debug.xcconfig"; sourceTree = "<group>"; };
-		B383CBB58BFB8EEC27A64E9F /* Pods-Tokki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokki.release.xcconfig"; path = "Target Support Files/Pods-Tokki/Pods-Tokki.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4685B65A95B3B0865CCD9D6 /* Pods_Tokki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,17 @@
 			path = Modals;
 			sourceTree = "<group>";
 		};
+		192BE02E2C1BB4F00089B426 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				192BE02A2C1BB3AB0089B426 /* FutureView.swift */,
+				192BE02C2C1BB45C0089B426 /* HelpView.swift */,
+				192BE02F2C1BB50D0089B426 /* SettingsView.swift */,
+				192BE0332C1BBF180089B426 /* PricingView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		197C81E72B1B008400D4DBC0 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +125,13 @@
 		197C81E82B1B00F300D4DBC0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				197C81F02B1B01B600D4DBC0 /* HomeView.swift */,
-				197C81F22B1B01CA00D4DBC0 /* AccountView.swift */,
-				197C81F42B1B01DA00D4DBC0 /* MatchedView.swift */,
-				197C81F62B1B01E500D4DBC0 /* CourseView.swift */,
-				197C81F82B1B01EF00D4DBC0 /* SearchView.swift */,
+				192BE02E2C1BB4F00089B426 /* Menu */,
 				1920FA092BD24EA00005981D /* Modals */,
+				197C81F22B1B01CA00D4DBC0 /* AccountView.swift */,
+				197C81F62B1B01E500D4DBC0 /* CourseView.swift */,
+				197C81F02B1B01B600D4DBC0 /* HomeView.swift */,
+				197C81F42B1B01DA00D4DBC0 /* MatchedView.swift */,
+				197C81F82B1B01EF00D4DBC0 /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,9 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				197C81FC2B1B020A00D4DBC0 /* BlobView.swift */,
+				197C82022B1B023800D4DBC0 /* CourseItem.swift */,
 				197C81FE2B1B021F00D4DBC0 /* HexagonStyle.swift */,
 				197C82002B1B022D00D4DBC0 /* FeaturedItem.swift */,
-				197C82022B1B023800D4DBC0 /* CourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -134,11 +150,12 @@
 		197C81EA2B1B011200D4DBC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				197C82042B1B024800D4DBC0 /* Tab.swift */,
-				197C82062B1B025400D4DBC0 /* PreferenceKeys.swift */,
 				197C82082B1B025F00D4DBC0 /* Course.swift */,
 				197C820A2B1B026700D4DBC0 /* Model.swift */,
 				197C820C2B1B027100D4DBC0 /* Suggestion.swift */,
+				197C82042B1B024800D4DBC0 /* Tab.swift */,
+				192BE0312C1BB73E0089B426 /* ThemeManager.swift */,
+				197C82062B1B025400D4DBC0 /* PreferenceKeys.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,11 +163,11 @@
 		197C81EB2B1B012500D4DBC0 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				197C820E2B1B027900D4DBC0 /* Styles.swift */,
 				197C82102B1B029500D4DBC0 /* AnimatableFontModifier.swift */,
 				197C82122B1B029F00D4DBC0 /* Animations.swift */,
 				197C82142B1B02AE00D4DBC0 /* AngularButtonStyle.swift */,
 				197C82162B1B02BB00D4DBC0 /* InputStyle.swift */,
+				197C820E2B1B027900D4DBC0 /* Styles.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -159,18 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				19B289942B1AFE3200B33D87 /* Tokki */,
-				19B289932B1AFE3200B33D87 /* Products */,
-				50DE092A7744E80685EF4A82 /* Pods */,
-				57AE0939681AABB8D42F64B4 /* Frameworks */,
+				1989DC872BF3040F006D70BD /* GoogleService-Info.plist */,
+				193528DD2C14FA8000349FCF /* Tokki.app */,
 			);
-			sourceTree = "<group>";
-		};
-		19B289932B1AFE3200B33D87 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				19B289922B1AFE3200B33D87 /* Tokki.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		19B289942B1AFE3200B33D87 /* Tokki */ = {
@@ -183,7 +191,6 @@
 				197C81EA2B1B011200D4DBC0 /* Model */,
 				197C81EB2B1B012500D4DBC0 /* Styles */,
 				19B289992B1AFE3300B33D87 /* Assets.xcassets */,
-				1989DC812BF29841006D70BD /* GoogleService-Info.plist */,
 				19B2899B2B1AFE3300B33D87 /* Preview Content */,
 			);
 			path = Tokki;
@@ -197,24 +204,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		50DE092A7744E80685EF4A82 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				855D03390136809130456749 /* Pods-Tokki.debug.xcconfig */,
-				B383CBB58BFB8EEC27A64E9F /* Pods-Tokki.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		57AE0939681AABB8D42F64B4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0A8837043AA1A9B9625C8B0F /* Pods_Tokki.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,7 +211,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19B289A02B1AFE3300B33D87 /* Build configuration list for PBXNativeTarget "Tokki" */;
 			buildPhases = (
-				D3E34D08830C7D7052D6095C /* [CP] Check Pods Manifest.lock */,
 				19B2898E2B1AFE3200B33D87 /* Sources */,
 				19B2898F2B1AFE3200B33D87 /* Frameworks */,
 				19B289902B1AFE3200B33D87 /* Resources */,
@@ -232,8 +220,10 @@
 			dependencies = (
 			);
 			name = Tokki;
+			packageProductDependencies = (
+			);
 			productName = Tokki;
-			productReference = 19B289922B1AFE3200B33D87 /* Tokki.app */;
+			productReference = 193528DD2C14FA8000349FCF /* Tokki.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +234,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					19B289912B1AFE3200B33D87 = {
 						CreatedOnToolsVersion = 14.2;
@@ -261,9 +251,8 @@
 			);
 			mainGroup = 19B289892B1AFE3200B33D87;
 			packageReferences = (
-				1989DC832BF29ADD006D70BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
-			productRefGroup = 19B289932B1AFE3200B33D87 /* Products */;
+			productRefGroup = 19B289892B1AFE3200B33D87;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -279,36 +268,10 @@
 			files = (
 				19B2899D2B1AFE3300B33D87 /* Preview Assets.xcassets in Resources */,
 				19B2899A2B1AFE3300B33D87 /* Assets.xcassets in Resources */,
-				1989DC822BF29841006D70BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D3E34D08830C7D7052D6095C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tokki-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19B2898E2B1AFE3200B33D87 /* Sources */ = {
@@ -317,6 +280,7 @@
 			files = (
 				197C81FF2B1B021F00D4DBC0 /* HexagonStyle.swift in Sources */,
 				197C81F32B1B01CA00D4DBC0 /* AccountView.swift in Sources */,
+				192BE0342C1BBF180089B426 /* PricingView.swift in Sources */,
 				197C81F92B1B01EF00D4DBC0 /* SearchView.swift in Sources */,
 				197C820D2B1B027100D4DBC0 /* Suggestion.swift in Sources */,
 				197C82032B1B023800D4DBC0 /* CourseItem.swift in Sources */,
@@ -327,10 +291,14 @@
 				19B289962B1AFE3200B33D87 /* TokkiApp.swift in Sources */,
 				197C82152B1B02AE00D4DBC0 /* AngularButtonStyle.swift in Sources */,
 				197C81F12B1B01B600D4DBC0 /* HomeView.swift in Sources */,
+				192BE02B2C1BB3AB0089B426 /* FutureView.swift in Sources */,
 				1936235C2BD1B7E200EB3801 /* SignInView.swift in Sources */,
 				197C820B2B1B026700D4DBC0 /* Model.swift in Sources */,
 				197C820F2B1B027900D4DBC0 /* Styles.swift in Sources */,
 				197C82012B1B022D00D4DBC0 /* FeaturedItem.swift in Sources */,
+				192BE0322C1BB73E0089B426 /* ThemeManager.swift in Sources */,
+				192BE02D2C1BB45C0089B426 /* HelpView.swift in Sources */,
+				192BE0302C1BB50D0089B426 /* SettingsView.swift in Sources */,
 				197C81FB2B1B01FA00D4DBC0 /* SignUpView.swift in Sources */,
 				197C82072B1B025400D4DBC0 /* PreferenceKeys.swift in Sources */,
 				197C81F52B1B01DA00D4DBC0 /* MatchedView.swift in Sources */,
@@ -383,6 +351,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -397,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -443,6 +412,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -451,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -463,7 +433,6 @@
 		};
 		19B289A12B1AFE3300B33D87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 855D03390136809130456749 /* Pods-Tokki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,7 +462,6 @@
 		};
 		19B289A22B1AFE3300B33D87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B383CBB58BFB8EEC27A64E9F /* Pods-Tokki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,17 +511,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1989DC832BF29ADD006D70BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 19B2898A2B1AFE3200B33D87 /* Project object */;
 }

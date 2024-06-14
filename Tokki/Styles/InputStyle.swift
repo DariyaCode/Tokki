@@ -2,7 +2,7 @@
 //  InputStyle.swift
 //  Tokki
 //
-//  Created by Dariya Gecher on 02.12.2023.
+//  Created by Dariya Gecher on 02.06.2024.
 //
 
 import SwiftUI

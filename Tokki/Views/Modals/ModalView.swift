@@ -47,7 +47,6 @@ struct ModalView: View {
                     .allowsHitTesting(false)
             )
             
-            
             Button {
                 dismissModal()
             } label: {

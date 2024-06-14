@@ -2,7 +2,7 @@
 //  FutureView.swift
 //  Tokki
 //
-//  Created by Dariya Gecher on 14.06.2024.
+//  Created by Dariya Gecher on 10.06.2024.
 //
 
 import SwiftUI

@@ -2,33 +2,21 @@
 //  TokkiApp.swift
 //  Tokki
 //
-//  Created by Dariya Gecher on 02.12.2023.
+//  Created by Dariya Gecher on 08.04.2024.
 //
 
 import SwiftUI
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseAuth
-      
-
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-
-    return true
-  }
-}
 
 @main
 struct TokkiApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @StateObject var model = Model()
+    @ObservedObject var themeManager = ThemeManager() // Создаем экземпляр ThemeManager
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(model)
+                .environmentObject(themeManager) // Передаем themeManager в окружение
         }
     }
 }
