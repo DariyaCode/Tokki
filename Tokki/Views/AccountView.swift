@@ -2,32 +2,33 @@
 //  AccountView.swift
 //  Tokki
 //
-//  Created by Dariya Gecher on 02.12.2023.
+//  Created by Dariya Gecher on 13.05.2024.
 //
-
 import SwiftUI
 
 struct AccountView: View {
     @State var isDeleted = false
     @State var isPinned = false
     @Environment(\.presentationMode) var presentationMode
+    @Environment(\.colorScheme) var colorScheme
+    @EnvironmentObject var themeManager: ThemeManager
     
     var body: some View {
         NavigationView {
-            List{
+            List {
                 profile
-                
                 menu
-                
                 links
-                
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
-            .navigationBarItems(trailing: Button { presentationMode.wrappedValue.dismiss() } label: {Text("Done").bold() })
+//            .navigationBarItems(trailing: Button(action: { presentationMode.wrappedValue.dismiss() }) {
+//                Text("Done").bold()
+//            })
         }
     }
-    var profile: some View{
+    
+    var profile: some View {
         VStack(spacing: 8) {
             Image(systemName: "person.crop.circle.fill.badge.checkmark")
                 .symbolVariant(.circle.fill)
@@ -53,23 +54,24 @@ struct AccountView: View {
         .padding()
     }
     
-    var menu: some View{
+    var menu: some View {
         Section {
-            NavigationLink(destination: HomeView()) {
+            NavigationLink(destination: SettingsView(themeManager: themeManager)) {
                 Label("Settings", systemImage: "gear")
             }
-            NavigationLink { HomeView() } label: {
+
+            NavigationLink(destination: PricingView()) {
                 Label("Pricing", systemImage: "creditcard")
             }
-            NavigationLink { HomeView() } label: {
-                Label("Help", systemImage: "questionmark")
+            NavigationLink(destination: HelpView()) {
+                Label("Help(Community)", systemImage: "questionmark")
             }
         }
         .foregroundColor(.primary)
         .listRowSeparator(.hidden)
     }
     
-    var links: some View{
+    var links: some View {
         Section {
             if !isDeleted {
                 Link(destination: URL(string: "https://github.com/DariyaCode/CourseRoll")!) {
@@ -81,8 +83,7 @@ struct AccountView: View {
                     }
                 }
                 .swipeActions(edge: .leading) {
-                    Button(action: {isDeleted = true})
-                    {
+                    Button(action: { isDeleted = true }) {
                         Label("Delete", systemImage: "trash")
                     }
                     .tint(.red)
@@ -100,25 +101,16 @@ struct AccountView: View {
         }
         .foregroundColor(.primary)
         .listRowSeparator(.hidden)
-        
     }
     
-    var pinButton: some View{
-        Button { isPinned.toggle() } label: {
-            if isPinned{
+    var pinButton: some View {
+        Button(action: { isPinned.toggle() }) {
+            if isPinned {
                 Label("Unpin", systemImage: "pin.slash")
-            }
-            else{
+            } else {
                 Label("Pin", systemImage: "pin")
             }
         }
         .tint(isPinned ? .gray : .yellow)
     }
 }
-
-struct AccountView_Previews: PreviewProvider {
-    static var previews: some View {
-        AccountView()
-    }
-}
-
